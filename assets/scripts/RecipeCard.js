@@ -146,7 +146,7 @@ class RecipeCard extends HTMLElement {
 		
 		<div class="rating">
 		  <span>${data.rating}</span>
-		  <img src="../images/icons/${data.rating}-star.svg" alt="${data.rating} stars">
+		  <img src="./assets/images/icons/${data.rating}-star.svg" alt="${data.rating} stars">
 		  <span>(${data.numRatings})</span>
 		</div>
 		
