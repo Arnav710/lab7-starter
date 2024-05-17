@@ -5,9 +5,7 @@ class RecipeCard extends HTMLElement {
 	// the element is written into the DOM directly as <recipe-card>
 	constructor() {
 		super(); // Inherit everything from HTMLElement
-
-		console.log('in constructor');
-
+		
 		// EXPOSE - START (All expose numbers start with A)
 		// A1. TODO - Attach the shadow DOM to this Web Component (leave the mode open)
 		const shadow = this.attachShadow({ mode: "open" });
